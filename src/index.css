@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+
+/* body {
+  background-color: #000300
+} */
+
+.li::after {
+  content: "";
+  position: absolute;
+  background-color: #00D8FF;
+  height: 3px;
+  width: 0;
+  left: 15px;
+  bottom: -4px;
+  transition: 0.3s;
+}
+
+.li:hover::after {
+  width: 50%;
+}
+
+@layer base {
+  body {
+    @apply font-[oswald];
+  }
+
+  .li {
+    @apply px-4;
+    position: relative;
+  }
+
+}
