@@ -7,7 +7,6 @@ import { HiOutlineMail } from "react-icons/hi"
 // import { BsFillPersonLinesFill } from "react-icons/bs"
 
 import Logo from "../assets/logo.png"
-import About from "./About"
 
 const Navbar = () => {
   const [Nav, setNav] = useState(false)

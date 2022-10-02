@@ -12,7 +12,7 @@ const Experiance = () => {
       <div className='max-w-screen-lg p-5 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-medium inline border-b-4 border-[#00D8FF] '>Experience</p>
-          <p className='py-5'>Beberapa project yang saya bengun/kembangkan</p>
+          <p className='py-5'>Beberapa project yang saya bengun/kembangkan dalam waktu dekat ini.</p>
         </div>
         {/*  */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-0'>

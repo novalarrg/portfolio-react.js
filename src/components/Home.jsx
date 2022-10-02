@@ -16,7 +16,7 @@ const Home = () => {
             <h2 className='text-4xl sm:text-7xl font-medium'>
               I'm a <span className='text-[#00D8FF]'> Front End </span>Developer
             </h2>
-            <p className='text-gray-500 py-4 md:pr-5 mx-w-md'>saya seorang mahasiswa yang memiliki minat bakat membangun dan mendesain website, saya suka bekerja pada aplikasi web menggunakan teknologi React.js</p>
+            <p className='text-gray-500 py-4 md:pr-5 mx-w-md'>saya seorang mahasiswa yang memiliki minat bakat membangun dan mendesain website, saya suka bekerja pada aplikasi web menggunakan teknologi React js</p>
             <div>
               <button className='flex justify-between items-center h-10 px-6 py-6 hover:bg-gradient-to-b hover:from-black hover:to-black hover:text-[#00D8FF] border-2 hover:border-[#00D8FF] border-black bg-gradient-to-r from-[#0066FF] to-[#00D8FF] text-black rounded-md font-medium'>
                 Portfolio <HiOutlineArrowNarrowRight className='ml-2 text-2xl' />
